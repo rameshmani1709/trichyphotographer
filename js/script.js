@@ -166,7 +166,7 @@
         `*Phone:* ${encodeURIComponent(phone)}%0A` +
         `*Message:* ${encodeURIComponent(message)}`;
       // Opens WhatsApp chat with pre-filled enquiry (number in international format)
-      window.open(`https://wa.me/917845117177?text=${text}`, '_blank');
+      window.open(`https://wa.me/917871117177?text=${text}`, '_blank');
       form.reset();
       const note = form.querySelector('.form-note');
       if (note) note.textContent = 'Opening WhatsApp… thank you, we will reply shortly!';
