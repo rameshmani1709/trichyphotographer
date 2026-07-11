@@ -492,8 +492,9 @@ section { padding: 100px 0; position: relative; }
 .footer-col ul li { margin-bottom: 12px; }
 .footer-col ul li a { color: var(--grey); font-size: .92rem; transition: all var(--ease); }
 .footer-col ul li a:hover { color: var(--gold); padding-left: 6px; }
-.footer-contact li { display: flex; gap: 12px; color: var(--grey); font-size: .92rem; margin-bottom: 14px; }
-.footer-contact li i { color: var(--gold); }
+.footer-contact li { display: flex; align-items: center; gap: 12px; color: var(--grey); font-size: .92rem; margin-bottom: 14px; }
+.footer-contact li i { color: var(--gold); width: 18px; text-align: center; flex-shrink: 0; }
+.footer-contact li a { word-break: break-word; }
 .socials { display: flex; gap: 14px; margin-top: 6px; }
 .socials a {
   width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line);
